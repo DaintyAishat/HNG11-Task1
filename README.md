@@ -11,9 +11,13 @@ This is a simple, single-page website outlining my tech goals for the next two y
 - [Author](#author)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Deployment](#deployment)
+- [Deployment](#deployment)!
+
 - [Contact](#contact)
 ## Screenshot
+[Screenshot](https://github.com/DaintyAishat/HNG11-Task1/assets/82160896/9afa28b0-659d-4006-8c85-73270dd73386)
+![Screenshot2](https://github.com/DaintyAishat/HNG11-Task1/assets/82160896/3aa8ef1e-727b-4c74-bc21-f708de69244d)
+
 ## Features
 - Displays Slack display name, email, socials and profile picture in a card.
 - Shows the current time in UTC and the current day of the week.
