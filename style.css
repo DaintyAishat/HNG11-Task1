@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 238, 248);
+}
+header{
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 1rem 0; 
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+    font-family: arial;
+    color: #000;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.card span{
+    color: rgb(212, 14, 196);
+    font-weight: 400;
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+   text-align: center;
+}
+button:hover, a:hover {
+    opacity: 0.65;
+}
+main div {
+    background: white;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #0073e6;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#links {
+    margin-bottom: 4rem;
+}
+#links a{
+    text-decoration: none;
+}
+#links li{
+    padding-bottom: 7px;
+}
+.current-time {
+    font-weight: 800;
+}
+@media (max-width: 768px) {
+    .profile-info, .current-info {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+@media (max-width:380px) {
+    .card {
+        max-width: 80%;
+    }
+    
+}
